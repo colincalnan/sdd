@@ -83,3 +83,7 @@ Coding agents fail across sessions because they lose context: they drift from th
 ## Requirements
 
 Claude Code (or another agent that reads `SKILL.md` skills). No other dependencies. The skill only reads and writes files and runs git commands you approve.
+
+## License
+
+Copyright (c) 2026 Colin Calnan. All rights reserved. This is proprietary intellectual property; use requires written permission. See [LICENSE](LICENSE).
