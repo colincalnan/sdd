@@ -11,14 +11,14 @@ Clone this repository into your Claude skills directory, as a folder named `sdd`
 **For yourself, in every project** (personal skill):
 
 ```bash
-git clone <this-repo-url> ~/.claude/skills/sdd
+git clone https://github.com/colincalnan/sdd.git ~/.claude/skills/sdd
 ```
 
 **For one project, shared with everyone who clones it** (project skill):
 
 ```bash
 # from the root of the project you want to use SDD in
-git clone <this-repo-url> .claude/skills/sdd
+git clone https://github.com/colincalnan/sdd.git .claude/skills/sdd
 ```
 
 Either way, start (or restart) Claude Code so it picks up the skill. Confirm it is loaded by typing `/` and looking for `sdd` in the list.
@@ -86,4 +86,4 @@ Claude Code (or another agent that reads `SKILL.md` skills). No other dependenci
 
 ## License
 
-Copyright (c) 2026 Colin Calnan. All rights reserved. This is proprietary intellectual property; use requires written permission. See [LICENSE](LICENSE).
+Copyright (c) 2026 Colin Calnan. Released under the [MIT License](LICENSE).
